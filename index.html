@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paletería La Michoacana Centro</title>
+    <style>
+        body {
+            font-family: "Comic Sans MS", cursive;
+            background-color: #ffffff;
+            color: #333333;
+        }
+
+        h1 {
+            color: #4a3a8c;
+        }
+
+        h2 {
+            background-color: #4a3a8c;
+            color: #ffffff;
+            padding: 5px;
+        }
+
+        th {
+            background-color: #d81b60;
+            color: #ffffff;
+        }
+
+        td, th {
+            padding: 5px 15px;
+        }
+
+        .menu a {
+            background-color: #d81b60;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Paletería La Michoacana Centro</h1>
+    <p>Paletas, nieves y aguas frescas en el centro de Zapotiltic.</p>
+    <p class="menu">
+        <a href="#menu">Menú</a>
+        <a href="#fotos">Fotos</a>
+        <a href="#donde">Dónde estamos</a>
+        <a href="#opinion">Opinión</a>
+    </p>
+    <img src="img/WhatsApp%20Image%202026-11-13%20at%206.47.31%20PM.jpeg" alt="Paletería" width="400">
+
+    <h2 id="menu">Menú</h2>
+    <table border="1">
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+        <tr><td>Paleta de agua</td><td>$15</td></tr>
+        <tr><td>Paleta de leche</td><td>$20</td></tr>
+        <tr><td>Nieve sencilla (cono)</td><td>$30</td></tr>
+        <tr><td>Nieve doble (cono)</td><td>$45</td></tr>
+        <tr><td>Vaso de nieve</td><td>$35</td></tr>
+        <tr><td>Agua fresca</td><td>$25</td></tr>
+        <tr><td>Licuado</td><td>$40</td></tr>
+    </table>
+
+    <h2 id="fotos">Fotos</h2>
+    <img src="img/WhatsApp%20Image%202026-11-13%20at%206.47.33%20PM.jpeg" alt="Nieve en cono" width="180">
+    <img src="img/WhatsApp%20Image%202026-11-13%20at%206.47.33%20PM%20(1).jpeg" alt="Vaso de nieve" width="180">
+    <img src="img/WhatsApp%20Image%202026-11-13%20at%206.47.33%20PM%20(2).jpeg" alt="Licuado" width="180">
+    <img src="img/WhatsApp%20Image%202026-11-13%20at%206.47.32%20PM.jpeg" alt="Fachada" width="180">
+
+    <h2 id="donde">Dónde estamos</h2>
+    <p>Centro de Zapotiltic, Jalisco.</p>
+    <iframe src="https://maps.google.com/maps?q=19.6259754,-103.4173475&z=18&output=embed" width="500" height="300" title="Mapa"></iframe>
+
+    <h2 id="opinion">Déjanos tu opinión</h2>
+    <form>
+        <p>Nombre: <input type="text"></p>
+        <p>Correo: <input type="email"></p>
+        <p>
+            Tu sabor favorito:
+            <select>
+                <option>Fresa</option>
+                <option>Mango</option>
+                <option>Limón</option>
+                <option>Chocolate</option>
+                <option>Galleta</option>
+                <option>Otro</option>
+            </select>
+        </p>
+        <p>Comentario:</p>
+        <textarea rows="4" cols="40"></textarea>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+
+    <p>Paletería La Michoacana Centro - 2026</p>
+
+</body>
+</html>
